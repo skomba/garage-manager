@@ -2,7 +2,7 @@
 
 **An offline-first, installable web app for managing multiple cars, mileage claims, repairs and reminders, with secure sign-in and automatic sync between phone and computer.**
 
-[![tests](https://github.com/skomba/garage-manager/actions/workflows/test.yml/badge.svg)](https://github.com/skomba/garage-manager/actions)
+[![tests](https://sk-garage.netlify.app/?demo)
 
 **Live demo:** `https://sk-garage.netlify.app/?demo` &nbsp;·&nbsp; **Try it:** create a free account (10 seconds), then *Settings → 🧪 Load sample data*.
 
