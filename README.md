@@ -2,9 +2,9 @@
 
 **An offline-first, installable web app for managing multiple cars, mileage claims, repairs and reminders, with secure sign-in and automatic sync between phone and computer.**
 
-[![tests](https://github.com/YOUR-USERNAME/garage-manager/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR-USERNAME/garage-manager/actions)
+[![tests](https://github.com/skomba/garage-manager/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR-USERNAME/garage-manager/actions)
 
-**Live demo:** `https://YOUR-SITE.netlify.app/?demo` &nbsp;·&nbsp; **Try it:** create a free account (10 seconds), then *Settings → 🧪 Load sample data*.
+**Live demo:** `[https://YOUR-SITE.netlify.app/?demo](https://sk-garage.netlify.app/?demo)` &nbsp;·&nbsp; **Try it:** create a free account (10 seconds), then *Settings → 🧪 Load sample data*.
 
 <p align="center">
   <img src="docs/desktop-overview.png" width="780" alt="Vehicle overview dashboard">
@@ -83,4 +83,4 @@ Runs 11 scenarios against a mock Supabase: first upload, a fresh second device, 
 - The browser keeps a local copy, so use a device lock on shared devices.
 
 ## License
-MIT, see [LICENSE](LICENSE).
+MIT, see [LICENSE](Sunday).
