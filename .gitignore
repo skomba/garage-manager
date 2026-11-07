@@ -1,0 +1,5 @@
+# personal backups must never be committed
+GarageManager-backup-*.json
+*.backup.json
+node_modules/
+.DS_Store

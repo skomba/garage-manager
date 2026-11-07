@@ -1,0 +1,367 @@
+{
+ "theme": "light",
+ "vehicles": [
+  {
+   "id": "democar1",
+   "name": "Toyota Corolla",
+   "year": "2016",
+   "reg": "KDA 123A",
+   "colour": "Silver",
+   "vin": "",
+   "engineNo": "",
+   "fuelType": "Petrol",
+   "notes": "1800cc",
+   "ownerName": "Jane Doe",
+   "ownerPhone": "+254 700 000000",
+   "ownerEmail": "jane.doe@example.com",
+   "ownerAddress": "Nairobi",
+   "ownerNotes": "",
+   "photo": null,
+   "data": {
+    "settings": {
+     "reimbursementRate": 30,
+     "defaultFuelPrice": 190,
+     "vehicleName": "Toyota Corolla (2016)",
+     "registration": "KDA 123A",
+     "odometer": 0,
+     "theme": "light"
+    },
+    "trips": [
+     {
+      "date": "2026-11-02",
+      "purpose": "Client site visit",
+      "from": "Nairobi CBD",
+      "to": "Thika Road Mall",
+      "start": "",
+      "end": "",
+      "distance": "24",
+      "category": "Work",
+      "rate": 30,
+      "notes": "",
+      "km": 24,
+      "claim": 720,
+      "method": "quick"
+     },
+     {
+      "date": "2026-11-04",
+      "purpose": "Supplier meeting",
+      "from": "Westlands",
+      "to": "Industrial Area",
+      "start": "",
+      "end": "",
+      "distance": "18",
+      "category": "Work",
+      "rate": 30,
+      "notes": "",
+      "km": 18,
+      "claim": 540,
+      "method": "quick"
+     },
+     {
+      "date": "2026-11-05",
+      "purpose": "Airport pickup",
+      "from": "Westlands",
+      "to": "JKIA",
+      "start": "",
+      "end": "",
+      "distance": "31",
+      "category": "Work",
+      "rate": 30,
+      "notes": "",
+      "km": 31,
+      "claim": 930,
+      "method": "quick"
+     }
+    ],
+    "repairs": [
+     {
+      "phase": "Essential / Priority",
+      "priority": "High",
+      "task": "Front brake pads replacement",
+      "estimate": 8500,
+      "actual": 8200,
+      "status": "Done",
+      "due": "2026-10-20",
+      "notes": "Squeal when braking",
+      "selected": true,
+      "images": []
+     },
+     {
+      "phase": "Essential / Priority",
+      "priority": "High",
+      "task": "Replace rear tyres (x2)",
+      "estimate": 18000,
+      "actual": 0,
+      "status": "In progress",
+      "due": "2026-11-12",
+      "notes": "Bought; fitting booked",
+      "selected": true,
+      "images": []
+     },
+     {
+      "phase": "Routine",
+      "priority": "Medium",
+      "task": "Air filter and cabin filter",
+      "estimate": 3200,
+      "actual": 0,
+      "status": "Planned",
+      "due": "2026-11-25",
+      "notes": "",
+      "selected": true,
+      "images": []
+     },
+     {
+      "phase": "Routine",
+      "priority": "Low",
+      "task": "Wheel alignment and balancing",
+      "estimate": 4000,
+      "actual": 0,
+      "status": "Planned",
+      "due": "2026-12-05",
+      "notes": "",
+      "selected": true,
+      "images": []
+     }
+    ],
+    "fuel": [
+     {
+      "date": "2026-10-12",
+      "odo": 88210,
+      "litres": 38.4,
+      "price": 189.5,
+      "station": "Shell Westlands",
+      "fill": "Full tank",
+      "total": 7276.8
+     },
+     {
+      "date": "2026-10-26",
+      "odo": 88790,
+      "litres": 36.9,
+      "price": 191.2,
+      "station": "Total Thika Road",
+      "fill": "Full tank",
+      "total": 7055.28
+     },
+     {
+      "date": "2026-11-03",
+      "odo": 89310,
+      "litres": 35.2,
+      "price": 190.8,
+      "station": "Rubis Ngong Rd",
+      "fill": "Full tank",
+      "total": 6716.16
+     }
+    ],
+    "reminders": [],
+    "maintenance": [
+     {
+      "task": "Engine oil and filter",
+      "category": "Service",
+      "date": "2026-09-15",
+      "odo": 87400,
+      "nextDate": "2026-12-15",
+      "nextOdo": 92400,
+      "notes": "",
+      "status": "Done"
+     },
+     {
+      "task": "Insurance renewal",
+      "category": "Documents",
+      "date": "2026-01-10",
+      "odo": 0,
+      "nextDate": "2026-11-20",
+      "nextOdo": 0,
+      "notes": "",
+      "status": "Pending"
+     }
+    ],
+    "history": [],
+    "mt": {
+     "driver": "Jane Doe",
+     "registration": "KDA 123A",
+     "fuelPrice": 190,
+     "fuelEconomy": 12,
+     "bethelRate": 30
+    },
+    "mttrips": [
+     {
+      "date": "2026-11-02",
+      "from": "Nairobi CBD",
+      "to": "Thika Road Mall",
+      "purpose": "Client site visit",
+      "type": "Official",
+      "scheme": "Standard",
+      "start": "",
+      "end": "",
+      "distance": "24",
+      "km": 24,
+      "method": "km"
+     },
+     {
+      "date": "2026-11-04",
+      "from": "Westlands",
+      "to": "Industrial Area",
+      "purpose": "Supplier meeting",
+      "type": "Official",
+      "scheme": "Standard",
+      "start": "",
+      "end": "",
+      "distance": "18",
+      "km": 18,
+      "method": "km"
+     }
+    ],
+    "contacts": [],
+    "payments": [],
+    "pay": {
+     "mpesaType": "Paybill",
+     "mpesaNumber": "",
+     "account": "",
+     "bank": "",
+     "bankAcc": "",
+     "accName": "",
+     "notes": ""
+    }
+   }
+  },
+  {
+   "id": "democar2",
+   "name": "Subaru Forester",
+   "year": "2019",
+   "reg": "KDB 456B",
+   "colour": "Blue",
+   "vin": "",
+   "engineNo": "",
+   "fuelType": "Petrol",
+   "notes": "2000cc",
+   "ownerName": "Jane Doe",
+   "ownerPhone": "+254 700 000000",
+   "ownerEmail": "jane.doe@example.com",
+   "ownerAddress": "Nairobi",
+   "ownerNotes": "",
+   "photo": null,
+   "data": {
+    "settings": {
+     "reimbursementRate": 30,
+     "defaultFuelPrice": 190,
+     "vehicleName": "Subaru Forester (2019)",
+     "registration": "KDB 456B",
+     "odometer": 0,
+     "theme": "light"
+    },
+    "trips": [
+     {
+      "date": "2026-10-30",
+      "purpose": "Site inspection",
+      "from": "Karen",
+      "to": "Naivasha",
+      "start": "",
+      "end": "",
+      "distance": "92",
+      "category": "Work",
+      "rate": 30,
+      "notes": "",
+      "km": 92,
+      "claim": 2760,
+      "method": "quick"
+     },
+     {
+      "date": "2026-11-01",
+      "purpose": "Family trip",
+      "from": "Karen",
+      "to": "Limuru",
+      "start": "",
+      "end": "",
+      "distance": "38",
+      "category": "Personal",
+      "rate": 0,
+      "notes": "",
+      "km": 38,
+      "claim": 0,
+      "method": "quick"
+     }
+    ],
+    "repairs": [
+     {
+      "phase": "Essential / Priority",
+      "priority": "Medium",
+      "task": "Service: 40,000 km",
+      "estimate": 15000,
+      "actual": 0,
+      "status": "Planned",
+      "due": "2026-11-30",
+      "notes": "Dealer booking",
+      "selected": true,
+      "images": []
+     },
+     {
+      "phase": "Routine",
+      "priority": "Low",
+      "task": "Interior detailing",
+      "estimate": 5000,
+      "actual": 5000,
+      "status": "Done",
+      "due": "2026-10-18",
+      "notes": "",
+      "selected": true,
+      "images": []
+     }
+    ],
+    "fuel": [
+     {
+      "date": "2026-10-29",
+      "odo": 41200,
+      "litres": 52.0,
+      "price": 192.0,
+      "station": "Shell Karen",
+      "fill": "Full tank",
+      "total": 9984.0
+     },
+     {
+      "date": "2026-11-02",
+      "odo": 41410,
+      "litres": 44.5,
+      "price": 190.5,
+      "station": "Total Limuru",
+      "fill": "Full tank",
+      "total": 8477.25
+     }
+    ],
+    "reminders": [],
+    "maintenance": [
+     {
+      "task": "Annual inspection",
+      "category": "Documents",
+      "date": "2025-11-28",
+      "odo": 0,
+      "nextDate": "2026-11-28",
+      "nextOdo": 0,
+      "notes": "",
+      "status": "Pending"
+     }
+    ],
+    "history": [],
+    "mt": {
+     "driver": "Jane Doe",
+     "registration": "KDB 456B",
+     "fuelPrice": 190,
+     "fuelEconomy": 12,
+     "bethelRate": 30
+    },
+    "mttrips": [],
+    "contacts": [],
+    "payments": [],
+    "pay": {
+     "mpesaType": "Paybill",
+     "mpesaNumber": "",
+     "account": "",
+     "bank": "",
+     "bankAcc": "",
+     "accName": "",
+     "notes": ""
+    }
+   }
+  }
+ ],
+ "currentId": null
+}

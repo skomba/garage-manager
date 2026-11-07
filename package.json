@@ -1,0 +1,7 @@
+{
+  "name": "garage-manager",
+  "version": "5.0.0",
+  "description": "Offline-first multi-car garage and mileage manager (PWA) with Supabase sign-in and cross-device sync.",
+  "scripts": { "test": "node tests/sync.test.js" },
+  "license": "MIT"
+}
